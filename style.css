@@ -9,6 +9,7 @@ body {
   /* background: linear-gradient(to right, #00aaff, #00ff6c); */
   background: url(https://source.unsplash.com/1600x900/?landscape) center center;
   font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 .calculator {
   display: grid;
@@ -29,6 +30,7 @@ body {
   padding: 10px;
   word-wrap: break-word;
   word-break: break-all;
+  color: #fff;
 }
 .calculator > button {
   cursor: pointer;
@@ -44,4 +46,13 @@ body {
 }
 .two-column {
   grid-column: span 2;
+}
+.current-operand {
+  font-size: 2.2rem;
+  transition: all 0.3s ease-in;
+}
+.previous-operand {
+  opacity: 0.6;
+  font-size: 1.6rem;
+  transition: all 0.3s ease-in;
 }
