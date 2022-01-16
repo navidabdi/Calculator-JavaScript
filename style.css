@@ -6,7 +6,8 @@
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(to right, #00aaff, #00ff6c);
+  /* background: linear-gradient(to right, #00aaff, #00ff6c); */
+  background: url(https://source.unsplash.com/1600x900/?landscape) center center;
   font-family: "Poppins", sans-serif;
 }
 .calculator {
@@ -19,7 +20,8 @@ body {
 }
 .display {
   grid-column: 1 / -1;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(1.2rem);
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
@@ -31,9 +33,10 @@ body {
 .calculator > button {
   cursor: pointer;
   font-size: 2rem;
-  border: 1px solid #fff;
+  border: 1px solid rgba(255, 255, 255, 0.561);
   outline: none;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(1.2rem);
   transition: all 0.1s ease-in;
 }
 .calculator > button:hover {
