@@ -21,7 +21,7 @@ body {
 .display {
   grid-column: 1 / -1;
   background: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(1.2rem);
+  backdrop-filter: blur(0.5rem);
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
@@ -36,11 +36,11 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.561);
   outline: none;
   background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(1.2rem);
+  backdrop-filter: blur(0.5rem);
   transition: all 0.1s ease-in;
 }
 .calculator > button:hover {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.7);
 }
 .two-column {
   grid-column: span 2;
