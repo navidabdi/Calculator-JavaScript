@@ -1,8 +1,8 @@
-# Calculator-JavaScript
+# Calculator App with JavaScript
 A simple object oriented Calculator with JavaScript.
 
 # Preview => https://navidabdi.github.io/Calculator-JavaScript/
-For image change on the backgrond you should delete the browser with every refresh. Ctrl + Shift + R
+For image change on the backgrond you should delete the browser cache on every refresh. Ctrl + Shift + R
 
 ![image](https://user-images.githubusercontent.com/32398454/209473334-f78a5733-a1ff-4269-afb6-2595ede29127.png)
 ![image](https://user-images.githubusercontent.com/32398454/209473346-b7039003-0deb-4f6d-b37a-fe29ead61203.png)
