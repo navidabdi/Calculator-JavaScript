@@ -8,6 +8,8 @@
 body {
   /* background: linear-gradient(to right, #00aaff, #00ff6c); */
   background: url(https://source.unsplash.com/1600x900/?landscape) center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
 }
